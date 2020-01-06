@@ -1,4 +1,6 @@
-module.exports = {
+const withSass = require('@zeit/next-sass')
+
+module.exports = withSass({
     webpack: (cfg) => {
         cfg.module.rules.push(
             {
@@ -9,4 +11,4 @@ module.exports = {
         )
         return cfg;
     }
-}
+});
