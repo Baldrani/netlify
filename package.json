@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-    "scripts": {
-        "dev": "next",
-        "build": "next build",
-        "start": "next start",
-        "export": "npm run build && next export"
-    },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export"
+  },
   "kaeywords": [],
   "author": "",
   "license": "ISC",
@@ -18,6 +18,9 @@
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
-    "frontmatter-markdown-loader": "^3.1.0"
+    "@types/node": "^13.1.4",
+    "@types/react": "^16.9.17",
+    "frontmatter-markdown-loader": "^3.1.0",
+    "typescript": "^3.7.4"
   }
 }
