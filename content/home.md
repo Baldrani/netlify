@@ -10,3 +10,7 @@ cats:
     name: Grumpy cat (Tardar Sauce)
 ---
 LOURD
+
+```js
+console.log('coucou toi')
+```
