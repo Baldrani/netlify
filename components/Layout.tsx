@@ -1,7 +1,6 @@
-import * as React from "react";
 import Header from "./Header"
 import Nav from "./Nav";
-//import { Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 import "../styles/main.sass";
 
@@ -11,15 +10,13 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> =
     ({ children }) => (
-        //<Container>
-        <>
+        <Container>
             <Header title={"something"} />
             <Nav />
             <div>
                 { children }
             </div>
-        </>
-        //</Container>
+        </Container>
     )
 
 export default Layout

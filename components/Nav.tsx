@@ -1,4 +1,3 @@
-import * as React from "react";
 import Link from 'next/link'
 
 interface LinkInterface {
@@ -8,7 +7,7 @@ interface LinkInterface {
 }
 
 const links: LinkInterface[] = [
-    { href: '/posts', label: 'Blog' },
+    { href: '/blog', label: 'Blog' },
     { href: '/gists', label: 'Gists' }
 ].map(link => {
     //@ts-ignore
