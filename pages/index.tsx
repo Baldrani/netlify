@@ -1,4 +1,4 @@
-import Layout from "@/components/Layout";
+import Layout from "@components/Layout";
 
 const Home = ({ userAgent }) => <Layout><h1>Hello world! - user agent: {userAgent}</h1></Layout>;
 

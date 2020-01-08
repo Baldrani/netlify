@@ -10,7 +10,8 @@ module.exports = withSass({
                 options: { mode: ['react-component'] }
             }
         );
-        cfg.resolve.alias['@'] = path.join(__dirname);
+        cfg.resolve.alias['@components'] = path.join(__dirname) + '/components';
+        cfg.resolve.alias['@content'] = path.join(__dirname) + '/content';
         return cfg;
     }
 });
